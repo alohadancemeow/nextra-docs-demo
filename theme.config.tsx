@@ -2,7 +2,16 @@ import React from "react";
 import { DocsThemeConfig } from "nextra-theme-docs";
 
 const config: DocsThemeConfig = {
-  logo: <span>My Project</span>,
+  logo: (
+    <span
+      style={{
+        // fontSize: "16px",
+        fontWeight: "bold",
+      }}
+    >
+      🍀 Pali Documentation
+    </span>
+  ),
   project: {
     link: "https://github.com/shuding/nextra-docs-template",
   },
